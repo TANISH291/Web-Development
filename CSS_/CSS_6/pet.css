@@ -1,0 +1,37 @@
+h2{
+    color: rgb(253, 139, 0);
+}
+span{
+    color: rgba(165, 112, 42, 0.905);
+}
+.card{
+    height: 500px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    
+
+}
+img{
+    width: 100%;
+    border-radius: 15px;
+    
+}
+#pets{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h4{
+    color: yellowgreen;
+    text-align: end;
+ } 
+
+@media (max-width:375px) {
+    #pets{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}

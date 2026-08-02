@@ -1,0 +1,31 @@
+#mainTopic{
+    color: blue;
+    
+}
+*{
+    text-align: center;
+}
+.a{
+    font-family: Georgia;
+}
+.content{
+    color: white;
+    background-color: cornflowerblue;
+}
+div button{
+    background-color: purple;
+    color: azure;
+}
+div button:hover{
+    background-color: yellow;
+    color: blue;
+}
+.content:nth-last-of-type(2n-1){
+    color: yellow;
+}
+#mainTopic::first-letter{
+    color: darkgreen;
+}
+input:checked+label{
+    color: red;
+}

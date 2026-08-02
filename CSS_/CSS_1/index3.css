@@ -1,0 +1,45 @@
+/* TEXT ALIGN PROPERTY */
+h1{
+    text-align: center;
+    /* border: solid; */
+    /* width: 50%; */
+}
+
+p{
+    text-align: start ;
+}
+
+/* Font Weight */
+h1{
+    font-weight: normal;
+}
+p{
+    font-weight: 900;
+}
+
+/* Text decoration */
+h1{
+    text-decoration: double red underline;
+    
+}
+a{
+    text-decoration: none;
+}
+
+/* text spacing */
+p{
+    line-height: 40px;
+}
+/* letter spacing */
+h1{
+    letter-spacing: 19px;
+}
+/* font size */
+p{
+    font-size: 50px;
+}
+
+/* Font Family */
+p{
+   font-family: Georgia, 'Times New Roman', Times, serif; 
+}

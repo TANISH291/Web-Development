@@ -1,0 +1,21 @@
+/* inline element */
+span{
+    /* background-color: rgb(255, 141, 251); */
+    border:2px solid black ;
+    height: 100px;
+    width: 200px;
+    padding: 50px;
+    /* padding and margin will only set in left and right */
+    margin:15px;
+
+}
+
+/* block element */
+div{
+    border:2px solid black ;
+    height: 100px;
+    width: 200px;
+    padding: 50px;
+    margin:15px;
+}
+

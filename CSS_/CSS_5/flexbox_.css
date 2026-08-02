@@ -1,0 +1,90 @@
+h1{
+    text-align: center;
+}
+#container{
+    width: 700px;
+    height: 400px;
+    background-color: azure;
+    border: 2px solid black ;
+    margin: auto;
+    display: flex;
+    
+    /* flex-direction */
+    flex-direction: row;
+    
+    /* 
+    flex-direction: row-reverse; right to left
+    flex-direction: row;  left to right
+    flex-direction: column ;top to bottom
+    flex-direction: column-reverse; bottom to top 
+    */
+
+    
+    
+    /*flex-justify-content*/
+    justify-content:flex-start;
+
+    /* 
+    justify-content:flex-start;
+    justify-content:flex-end; 
+    justify-content:center;
+    
+    justify-content:space-between;
+    justify-content:space-around;
+    ustify-content:space-evenly;
+    */
+
+    
+    /* Flex-Wrap */
+    /* flex-wrap: wrap; 
+    flex-wrap: wrap-reverse; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap; */
+    
+    
+    /* Align items */
+    align-items: flex-start;
+    /* align-items: flex-start;
+    align-items: flex-end;
+    align-items: center;
+    align-items: baseline
+    */
+}
+
+
+
+
+#container{
+/* align-content */
+    
+    /* align-content-center ;
+    align-content:space-between ;
+    align-content: space-around;
+    align-content: space-evenly; */
+    align-content: space-evenly;
+}
+#a{
+    /* Flex Sizing */
+   
+    /* flex-basis: 60px;
+   flex-grow: 1; */
+   /* flex-shrink: 2; */
+
+   /* Flex Sizing  ShortHand
+   flex:grow shrink basis;*/
+   flex:2 2 110px;
+
+}
+#b{
+    /* flex-grow: 1;
+    max-width: 200px; */
+    flex:1 2 110px;
+}
+
+
+div{
+    height: 80px;
+    width: 40px;
+    color: white;
+    text-align: center;
+}

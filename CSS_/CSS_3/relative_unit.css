@@ -1,0 +1,19 @@
+h1{
+    border: 2px solid black;
+    width: 50%;
+}
+
+#out{
+    width: 400px;
+    height: 400px;
+    background-color:rebeccapurple ;
+    margin: 50px;
+
+}
+
+#inn{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    margin: 50%;
+}

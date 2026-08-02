@@ -1,0 +1,21 @@
+#a{
+    height: 300px;
+    width: 300px;
+    font-size: 25px;
+    background-color: gray;
+    border: 5px dotted black;
+    margin: 20px 1em 40px 2em;
+    padding: 2em;
+}
+
+.ab{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: pink;
+    border-radius: 50%;
+    display: inline-block;
+}
+ul{
+    display: inline-block;
+}

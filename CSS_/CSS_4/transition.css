@@ -1,0 +1,13 @@
+div{
+    height:200px;
+    width: 200px;
+    margin: 0 auto;
+    background-color: greenyellow;
+    transition: margin-top 2s ease-in 0.2s;
+    /* transition: property-time-taken effect-delay */
+    
+}
+div:hover{
+    margin-top: 400px;
+    background-color: palegreen;
+}
