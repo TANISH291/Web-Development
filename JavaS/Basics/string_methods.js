@@ -1,6 +1,25 @@
+//String 
+let name='tanish'
+let age='21'
+let height=186
+console.log(name+age+"and"+height);
+
+console.log(`hello my name is ${name} ,my age is ${age} and my height is ${height}`)
+
+const gameName=new String("tanish")
+console.log(gameName);
+
+//accessing string char
+console.log(name[1]);
+//console.log(gameName.__proto__.) -> lsit of methods 
+
+
+
+//String Methods 
+
 // str.trim() trims white spaces from both ends string & return a new one 
 
-let msg="   Tanish Hangloo  ";
+let msg="   Tanish-Hangloo-is-a-good-boy  ";
 console.log(msg.trim());
 console.log(msg);
 
@@ -35,6 +54,11 @@ console.log(str.replace("love","do"))
 
 //repeat
 console.log(str.repeat(3))
+
+//split
+console.log(msg.split('-'));
+
+
 
 
 let a=12;
