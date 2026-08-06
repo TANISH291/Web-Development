@@ -1,3 +1,4 @@
+//Arrays
 let arr=["tanish",1,3.14,true,null]; //we can use any type of datatype element in javas array
 console.log(arr);
 
@@ -6,7 +7,7 @@ console.log(nums);
 
 console.log(nums[1]);
 
-console.log(nums[5]); //index out of bond so undefined 
+// console.log(nums[5]); //index out of bond so undefined 
 
 console.log(typeof nums); //array is an object 
 
@@ -47,6 +48,11 @@ let blocked= followers.shift();
 
 console.log(followers);
 console.log(blocked);
+
+let my_arr=['tanish','hangloo',121]
+const new_Arr = my_arr.join()
+console.log(my_arr);
+console.log(new_Arr);
 
 
 let primary=["red","yellow","green"];
@@ -120,7 +126,21 @@ console.log(tictactoe)
 tictactoe[0][1]="O";
 console.log(tictactoe)
 
+const arrr=[1,2,3,[4,5,6],[7],8,9,[10,[11,12,13],14]]
+console.log(arrr.flat(Infinity)); 
 
+
+console.log(Array.isArray("tanish"))
+
+console.log(Array.from("tanish"))
+console.log(Array.from({name:"tanish"})) //imp
+
+
+let score1=100
+let score2=200
+let score3=300
+
+console.log(Array.of(score1,score2,score3))
 
 
 
