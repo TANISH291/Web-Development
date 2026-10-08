@@ -1,7 +1,11 @@
 //String 
 let name='tanish'
 let age='21'
+let st=`tanish hangloo 
+is the bets guy in this world ${age}` //multi lines string we can use by using ``
 let height=186
+console.log(st);
+
 console.log(name+age+"and"+height);
 
 console.log(`hello my name is ${name} ,my age is ${age} and my height is ${height}`)

@@ -53,10 +53,10 @@ console.log(typeof ud);
 console.log(typeof null); // gives us object
 
 //type conversion to string 
-let num = 100;
-let str = String(num);
+let numm = 100;
+let strr = String(numm);
 
-console.log(str);          // "100"
+console.log(strr);          // "100"
 console.log(typeof str);   // string
 
 let num = 123;

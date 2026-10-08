@@ -59,6 +59,7 @@ let primary=["red","yellow","green"];
 console.log(primary.indexOf("yellow"));
 console.log(primary.indexOf("green"));
 console.log(primary.indexOf("blue"));// -1 not in array
+
 console.log(primary.includes("yellow"));
 console.log(primary.includes("green"));
 
@@ -96,6 +97,8 @@ console.log(color);//in string there is direct sorting
 let b=[100,42,86,67,99];//int number first sort function make it string then do sorting 
 b.sort();
 console.log(b);
+b.sort((a,b)=>a-b); //function 
+console.log(b);
 
 
 //refrence variable concept 
@@ -114,7 +117,8 @@ crrr.pop();
 console.log(crrr)
 // crrr=[1,2]; error assignment to constant variable 
 crrr.push("a")
-console.log(crrr); 
+console.log(crrr);
+
 
 let multidim_arr=[[1,2,3],[4,5,6],[7,8,9]];
 console.log(multidim_arr); 
@@ -129,7 +133,7 @@ console.log(tictactoe)
 const arrr=[1,2,3,[4,5,6],[7],8,9,[10,[11,12,13],14]]
 console.log(arrr.flat(Infinity)); 
 
-
+//array as object
 console.log(Array.isArray("tanish"))
 
 console.log(Array.from("tanish"))
@@ -141,6 +145,12 @@ let score2=200
 let score3=300
 
 console.log(Array.of(score1,score2,score3))
+
+let aa=[1,2,3,4,5,6,6]
+console.log(aa["2"]);
+aa.name="Tanish";
+console.log(aa);
+
 
 
 
